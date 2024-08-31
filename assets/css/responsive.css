@@ -1,0 +1,264 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #000;
+    background-color: #000 /* Matches the dark background color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #08d665; /* Highlight color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Section Padding */
+.section-padding {
+    padding: 107px 0;
+}
+section {
+    padding-top: 80px; /* Adjust this value based on the height of your navbar */
+    margin-top: -80px; /* This should be the same as padding-top */
+    padding-bottom: 40px; /* Optional: For spacing between sections */
+}
+
+/* Hero Area */
+.dark_bg {
+    background-color: #000;
+}
+
+.banner_content h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.banner_content p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.banner_btn {
+    background-color: #08d665;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.banner_btn:hover {
+    background-color: #06a84c;
+}
+
+/* About Section */
+.about-content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+.skill-card {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.skill-card h4 {
+    font-size: 1.1rem;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Projects Section */
+.project-item {
+    background-color: #222;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-info h3 {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.project-info p {
+    font-size: 0.95rem;
+}
+
+.project_btn {
+    background-color: #08d665;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project_btn:hover {
+    background-color: #06a84c;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Blog Section */
+.blog-area h2 {
+    margin-bottom: 50px;
+}
+
+.single_blog {
+    background-color: #222;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.single_blog img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.blog-info h4 {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.blog-info p {
+    font-size: 0.95rem;
+}
+
+.blog_btn {
+    background-color: #08d665;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.blog_btn:hover {
+    background-color: #06a84c;
+}
+
+.single_blog:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Section */
+.contact-form h2 {
+    margin-bottom: 50px;
+}
+
+.contact-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-control::placeholder {
+    color: #aaa;
+}
+
+.contact-form .ct_btn {
+    background-color: #08d665;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-form .ct_btn:hover {
+    background-color: #06a84c;
+}
+
+.contact-icons a {
+    color: #08d665;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.contact-icons a:hover {
+    color: #06a84c;
+}
+
+/* Footer Section */
+.footer-area {
+    background-color: #000;
+    padding: 0px;
+}
+
+.footer-text {
+    color: #aaa;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+    .banner_content h1 {
+        font-size: 2rem;
+    }
+    .banner_content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner_content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .contact-icons a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner_content h1 {
+        font-size: 1.75rem;
+    }
+    .banner_content p {
+        font-size: 0.95rem;
+    }
+}
