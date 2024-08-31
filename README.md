@@ -10,4 +10,4 @@ Welcome to my portfolio website! This repository showcases my skills, projects, 
 
 Thank you for visiting my portfolio!
 
-![Portfolio - Kaushik Bedmutha](Output.png)
+![Portfolio - Kaushik Bedmutha]("D:\DBIT\Self\Programming\Portfolio - Kaushik Bedmutha\Output.png")
