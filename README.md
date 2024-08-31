@@ -9,3 +9,5 @@ Welcome to my portfolio website! This repository showcases my skills, projects, 
 - **Website**:  (https://kaushikbedmutha.github.io/portfolio/)
 
 Thank you for visiting my portfolio!
+
+![Portfolio - Kaushik Bedmutha](Output.png)
