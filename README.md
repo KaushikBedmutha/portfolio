@@ -10,4 +10,4 @@ Welcome to my portfolio website! This repository showcases my skills, projects, 
 
 Thank you for visiting my portfolio!
 
-![Portfolio - Kaushik Bedmutha]("assets\Output.png")
+![Portfolio - Kaushik Bedmutha]("https://github.com/KaushikBedmutha/portfolio/blob/master/assets/Output.png")
